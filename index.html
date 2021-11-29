@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Student Marksheet Maker using Objects</title>
+</head>
+<body>
+	<div class="container">
+			<h2>Student Marksheet Maker</h2>
+			<div class="add">
+				<input type="text" id="name" placeholder="Enter Name" autocomplete="off">
+    			<input type="text" id="math" placeholder="Math Marks">
+    			<input type="text" id="science" placeholder="Science Marks">
+				<input type="text" id="english" placeholder="English Marks">
+				<input type="text" id="punjabi" placeholder="Punjabi Marks">
+				<input type="text" id="hindi" placeholder="Hindi Marks">
+    			<input type="text" id="sst" placeholder="Sst Marks"><br>
+    			<button type="submit" onclick="addmarks()";>Submit Marks</button>
+    			<p id="info"></p>
+			</div>
+			<div class="show">
+				<input type="text" id="stuname" placeholder="Student name"><br>
+				<button onclick="result();">Check your result!</button>
+				<p id="output"></p>
+			</div>	
+	</div>
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
